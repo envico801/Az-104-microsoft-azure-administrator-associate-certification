@@ -88,8 +88,12 @@ A:: Yes, custom domains can be added to Azure AD. This might be necessary to ali
 Q:: Where does Azure AD exist in relation to Azure subscriptions?  
 A:: Azure AD exists outside of Azure subscriptions.
 
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
 Q:: Do Azure subscriptions contain Azure AD instances? Why or why not?  
 A:: No, Azure subscriptions do not contain Azure AD instances. Instead, subscriptions trust a specific instance of Azure AD. This relationship is crucial for managing resources and identities in Azure
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
 
 Q:: Can you change the directory that a subscription trusts?  
 A:: Yes, you can change the directory that a subscription trusts.
