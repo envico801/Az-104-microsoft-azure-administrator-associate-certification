@@ -100,6 +100,53 @@ A:: Yes, you can change the directory that a subscription trusts.
 
 ![AAD Connect and customization](./assets/AAD-Connect-and-customization.png)
 
+#### Chapter 4 - Users
+
+Q:: How can users be added to Azure AD?  
+A:: Users can be added to Azure AD through various methods, including directory synchronization, creating cloud accounts, and adding guest accounts.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: What is the benefit of using Azure AD Connect to synchronize accounts from an existing Active Directory?  
+A:: Using Azure AD Connect to synchronize accounts provides a seamless user experience and ensures that existing Active Directory accounts can be used in Azure AD.
+
+![Users](./assets/Users.png)
+
+Q:: Can you explain the concept of guest accounts in Azure AD?  
+A:: Guest accounts in Azure AD are accounts that can be added from external sources, such as different Azure AD tenants, Microsoft accounts, or Gmail accounts.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: How does authentication work for guest accounts in Azure AD?  
+A:: Authentication for guest accounts in Azure AD is done by the originating identity provider associated with the guest account.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: What aspects of guest accounts can still be controlled by the Azure AD tenant?  
+A:: While authentication is managed by the originating identity provider, the Azure AD tenant can control aspects like authorization check requirements for guest accounts.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: Which types of services can trust an Azure AD tenant for permissions?  
+A:: Various types of services can trust an Azure AD tenant for permissions, including Azure subscriptions, Microsoft 365 services like SharePoint, and third-party apps configured to trust the Azure AD tenant.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: What is the significance of having different types of identities in Azure AD?  
+A:: Having different types of identities in Azure AD allows for flexibility in managing user accounts, accommodating various authentication sources, and granting permissions to different types of services.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: What are bulk operations in Azure, and how can they be useful?  
+A:: Bulk operations in Azure refer to performing actions on multiple items simultaneously. They are useful for efficiently managing large-scale tasks. e.g. creating multiples user using a csv template.
+
+![Users](./assets/Users2.png)
+
+Q:: How does PowerShell play a role in bulk items creation in Azure?  
+A:: PowerShell can be used to perform bulk items creation in Azure through scripting, enabling automation and customization of the process.
+
+![Users](./assets/Users2.png)
+
 ---
 
 DECK INFO
