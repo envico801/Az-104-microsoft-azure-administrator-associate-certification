@@ -147,6 +147,23 @@ A:: PowerShell can be used to perform bulk items creation in Azure through scrip
 
 ![Users](./assets/Users2.png)
 
+### Groups
+
+Q:: Why is it generally better to add users to groups when granting permissions to resources?  
+A:: Adding users to groups simplifies permission management, centralizes access control, and makes it easier to manage permissions for multiple users at once.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: What is the primary difference between "assigned" and "dynamic" membership in Azure groups?  
+A:: The primary difference is that "assigned" membership involves manually adding members to a group, while "dynamic" membership is determined by predefined rules.
+
+![Groups](./assets/Groups.png)
+
+Q:: Are there any special considerations for assigning Azure AD roles to groups? If so, what are they?  
+A:: Yes, there are special considerations for assigning Azure AD roles to groups. Normally, you cannot assign Azure AD roles to groups, but you can enable this option when creating a new group. Once enabled, Azure AD roles can be assigned to that group, but it makes the group assignment non-dynamic (not based on rules)..
+
+![Groups](./assets/Groups2.png)
+
 ---
 
 DECK INFO
