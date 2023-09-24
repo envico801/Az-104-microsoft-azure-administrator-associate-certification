@@ -147,7 +147,7 @@ A:: PowerShell can be used to perform bulk items creation in Azure through scrip
 
 ![Users](./assets/Users2.png)
 
-### Groups
+#### Chapter 5 - Groups
 
 Q:: Why is it generally better to add users to groups when granting permissions to resources?  
 A:: Adding users to groups simplifies permission management, centralizes access control, and makes it easier to manage permissions for multiple users at once.
@@ -163,6 +163,38 @@ Q:: Are there any special considerations for assigning Azure AD roles to groups?
 A:: Yes, there are special considerations for assigning Azure AD roles to groups. Normally, you cannot assign Azure AD roles to groups, but you can enable this option when creating a new group. Once enabled, Azure AD roles can be assigned to that group, but it makes the group assignment non-dynamic (not based on rules)..
 
 ![Groups](./assets/Groups2.png)
+
+#### Chapter 6 - Devices
+
+Q:: How can devices be associated with Azure AD?  
+A:: Devices can be associated with Azure AD through device registration or device joining (Register Plus+).
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: What is the purpose of making devices known to Azure AD?  
+A:: Making devices known to Azure AD enables the checking of device health (jailbroken, rooting, etc.) and the enforcement of Conditional Access rules before granting users access to resources.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: What is the primary function of device registration in Azure AD?  
+A:: Device registration in Azure AD makes the device known to Azure AD, allowing for certain management capabilities and potential integration with tools like Intune.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: What additional capabilities are provided when a device is joined (Register Plus+) to Azure AD, compared to registration alone?  
+A:: When a device is joined to Azure AD, it not only becomes known but also allows direct authentication with users in Azure Active Directory, taking device integration to the next level.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: In what scenarios might device registration be preferred?  
+A:: Device registration might be preferred for personal devices where certain security checks and management are still required.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
+
+Q:: In what scenarios might device joining be preferred?  
+A:: Device joining might be preferred for corporate devices that need to directly authenticate with users in Azure Active Directory.
+
+![Identity and Azure AD](./assets/Identity-and-Azure-AD.png)
 
 ---
 
